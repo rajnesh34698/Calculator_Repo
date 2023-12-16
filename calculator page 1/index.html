@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            MY CALCULATOR
+        </title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div id="body">
+
+        <div id="allbtn">
+            <form>
+                <input id="user" disabled>
+            </form>
+    <div id="r1">
+        <button id="clear">C</button>
+        <button onclick="inc()">M+</button>
+        <button onclick="dec()">M-</button>
+        <button onclick="ques('/')">/</button>
+    </div>
+    <div id="r2">
+        <button  value="7" onclick="ques(7)">7</button>
+        <button value="8" onclick="ques(8)" >8</button>
+        <button value="9" onclick="ques(9)" >9</button>
+        <button value="*" onclick="ques('*')" >*</button>
+    </div>
+    <div id="r3">
+        <button value="4" onclick="ques('4')">4</button>
+        <button value="5" onclick="ques('5')">5</button>
+        <button value="6" onclick="ques('6')">6</button>
+        <button value="-" onclick="ques('-')">-</button>
+    </div>
+    <div id="r4">
+        <button value="1" onclick="ques('1')">1</button>
+        <button value="2" onclick="ques('2')">2</button>
+        <button value="3" onclick="ques('3')">3</button>
+        <button value="+" onclick="ques('+')">+</button>
+    </div>
+    <div id="r5">
+        <button value="00" onclick="ques('00')">00</button>
+        <button value="0" onclick="ques('0')">0</button>
+        <button value="." onclick="ques('.')">.</button>
+        <button id="equal">=</button>
+    </div>
+        </div>
+        <script type="text/javascript" src="app.js"></script>
+    </div>
+   <a href="">Click here for SCIENTIFIC CALCULATOR</a>
+    </body>
+</html>

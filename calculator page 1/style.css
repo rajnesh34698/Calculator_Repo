@@ -1,0 +1,50 @@
+body{ 
+    margin-top: 20px;
+    background: url("calculator.png");
+    background-repeat: no-repeat;
+}
+#body{
+    margin-left: 900px;
+}
+input{
+    width: 270px;
+    height: 35px;
+    border-radius: 7px;
+    background-color: rgb(45, 56, 66);
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+#r1{
+    display: flex;
+    
+}
+#r2{
+    display: flex;
+}
+#r3{
+    display: flex;
+}
+#r4{
+    display: flex;
+}
+#r5{
+    display: flex;
+}
+button{
+    width: 70px;
+    height: 70px;
+    border-radius: 11px;
+    background-color: pink;
+    color: black;
+    font-size: 25px;
+    font-weight: 700;
+}
+a{
+    position: absolute;
+    bottom: 10px;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 25px;
+    color: black;
+}
